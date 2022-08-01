@@ -12,11 +12,11 @@
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
 
         <script src="../../js/jquery-1.10.2.min.js" defer></script>
         <script src="../../js/bootstrap.min.js" defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
@@ -141,8 +141,8 @@
 <p><a href="https://www.pdfdrive.com/">PDF Drive</a> 另一个下载电子书的好地方（高中教辅材料多一些）</p>
 <p><a href="https://www.igcsecentre.com/as-a-level-past-exam-papers/">IGCSE Centre</a> CAIE IG/A-level 的历年真题大部分从此下载（需翻墙）</p>
 <p><a href="https://gceguide.com/">GCE Guide</a> CAIE 的各种教研资料</p>
-<p><a href="http://www.mathshelper.co.uk/index.htm">MathsHelper</a> MAT/STEP 的历年真题，和OCR的一些教辅材料</p>
-<p><a href="https://www.ibdocuments.com/">IB Documents</a> IB教辅材料 (历年真题/Question Bank)</p>
+<p><a href="https://www.mathshelper.co.uk/">MathsHelper</a> MAT/STEP 的历年真题，和OCR的一些教辅材料</p>
+<p><a href="https://papacambridge.com/home/index.html">PapaCambridge</a> A-level 和 IB 的教辅材料 (考试大纲、历年真题、电子书等)</p>
 <p><a href="https://examsnap.io/">Exam Snap</a> IB 和 SAT 的教材和历年真题</p>
 <h3 id="_5">在线工具</h3>
 <p><a href="https://www.overleaf.com/">Overleaf</a> 在线编写<script type="math/tex">\LaTeX</script>文档</p>
@@ -173,16 +173,13 @@
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
             </div>
             <div class="modal-body">
-                <p>
-                    From here you can search these documents. Enter
-                    your search terms below.
-                </p>
+                <p>From here you can search these documents. Enter your search terms below.</p>
                 <form>
                     <div class="form-group">
                         <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
                     </div>
                 </form>
-                <div id="mkdocs-search-results"></div>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
             </div>
             <div class="modal-footer">
             </div>
